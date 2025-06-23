@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #f6f6f6;
+}
+#myntra_logo {
+  height: 45px;
+  width: 58px;
+}
+.logo_container {
+  margin-left: 3%;
+}
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #282c3f;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 27px 0px;
+  border-bottom: 5px solid #ffffff;
+}
+.nav_bar a sup {
+  color: #ff3f6c;
+  font-size: 10px;
+}
+.nav_bar a:hover {
+  border-bottom: 5px solid #f54e77;
+}
+.search_bar {
+  display: flex;
+  height: 40px;
+  min-width: 200px;
+  width: 35%;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  border-radius: 5px 0px 0px 5px;
+}
+.search_input {
+  border: none;
+  flex-grow: 1;
+  height: 40px;
+  background-color: #f5f5f6;
+  color: #696e79;
+  padding-left: 10px;
+  border-radius: 0px 5px 5px 0px;
+}
+.action_bar {
+  margin-right: 3%;
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30px;
+}
+.action_name {
+  font-size: 12px;
+}
+
+/* Main section */
+.banner_container {
+  margin: 30px 0px;
+}
+.banner_image {
+  width: 100%;
+}
+
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0px 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px 10px;
+}
+
+.category_items a {
+  width: calc((100%) / 5);
+  padding: 0px 6px;
+}
+.sale_item {
+  width: 100%;
+}
+
+/* Footer section */
+footer {
+  background-color: #f1f2f3;
+}
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.footer_column a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #696b79;
+  padding: 2px;
+}
+.copyright {
+  color: #94969f;
+  text-align: end;
+  padding: 15px;
+}
